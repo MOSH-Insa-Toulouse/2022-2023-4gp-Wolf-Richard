@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD6_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
+  (lib (name "Librarie_Empreinte_capt_graphite")(type "KiCad")(uri "${KIPRJMOD}/Librarie_Empreinte_capt_graphite.pretty")(options "")(descr ""))
+)

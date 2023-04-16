@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Librairie_Symboles_capt_graphite")(type "KiCad")(uri "${KIPRJMOD}/Librairie_Symboles_capt_graphite.kicad_sym")(options "")(descr ""))
+)
