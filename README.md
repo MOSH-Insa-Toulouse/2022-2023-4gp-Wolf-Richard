@@ -18,7 +18,7 @@ To that we added some elements. One can choose the best gain setting for their s
 
 The whole circuit can be seen in the picture below. Only the pins that are connected to the circuit are welded to the PCB.
 
-![whole circuit](https://user-images.githubusercontent.com/117917683/232506197-3d2d3a2c-044f-4b1e-9f9f-6cf2c7c64c04.jpeg)
+![whole circuit](https://user-images.githubusercontent.com/117917683/232507219-35aaf22e-3712-4acb-b655-914e615d6e81.jpeg)
 
 ## Test Bench and protocole used to test the sensor
 
@@ -42,6 +42,6 @@ On the app of which you can see a screenshot below, one must first connect to th
 
 We discovered too late (as the put the sheild on the Arduino) that our pin which was supposed to be connected to the +5V output pin was in fact connected to the Vin pin which delivers 4.3V. To solve that problem we cut the Vin pin and connected a cable from it to the +5V output as can be seen in the picture below.
 
-![Vin to +5V](https://user-images.githubusercontent.com/117917683/232506420-55c3d9ca-623e-4dfa-b907-fb6fef03f1d4.jpeg)
+![Vin to +5V](https://user-images.githubusercontent.com/117917683/232507183-34a4139c-3b46-4c27-ba81-c38f9881cd78.jpeg)
 
 We had problems using the rotary encoder, as a turn could be registered by the program even if no one had touched it. In the end, we just replaced it by the nunchuk which is much more precise and has way more functionnalities.
