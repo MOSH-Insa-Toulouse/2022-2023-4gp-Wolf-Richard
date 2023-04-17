@@ -38,9 +38,11 @@ Second, the user is invited to put the sensor in the most deflected position of 
 
 From that moment on, the Bluetooth module sends the value of the resistance that was calculated in the program. Thanks to the app one can retrieve the value and see its evolution.
 
-On the app of which you can see a screenshot below, one must first connect to the right Bluetooth module with the button "Let’s go Bluetooth". Once confirmed that the connection was done properly, the toggle "Tic tac boom" must be on to receive the values. The values are sent by the Bluetooth module every 500ms. The button "Send to Grisolia" saves a text file with the values of the resistance in it.
+On the app of which you can see a screenshot below, one must first connect to the right Bluetooth module with the button "Let’s go Bluetooth". Once confirmed that the connection was done properly, the toggle "Tic tac boom", which controls the clock, must be on to receive the values. The values are sent by the Bluetooth module every 500ms. The button "Send to Grisolia" saves a text file with the values of the resistance in it. It is only clickable when the clock is off.
 
-![android apk](https://user-images.githubusercontent.com/117917683/232510049-f4463200-e7e3-4e24-a70d-527d352089af.jpeg)
+![android apk](https://user-images.githubusercontent.com/117917683/232511801-0e43a64c-5084-4c02-80b2-d55e3043fc9a.jpeg)
+
+One can also select a point on the graph and see its value in the orange box. Above is displayed the value received at the moment by the app. Once a measurment done, the graph can be cleared thanks to the "Clear" button.
 
 ## Problems and improvements
 
