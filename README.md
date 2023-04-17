@@ -26,7 +26,9 @@ The test bench used is shown in the following picture.
 
 ![test bench](https://user-images.githubusercontent.com/117917683/232510201-2b17cb76-b257-466b-8278-d96453b23fee.jpeg)
 
-To test the sensor, we just put it on bench and try to make it take the shape of the bench as much as possible. We payed attention not to touch the graphite or the aligator clips for the test to be reliable. We took the measurments once we had a stable contact with the bench and a stable value.
+To test the sensor, we put it on the bench and try to make it take the shape of the bench as much as possible. We payed attention not to touch the graphite or the aligator clips for the test to be reliable. We took the measurments once we had a stable contact with the bench and a stable value. To determine the displacement of the sensor we used the formula
+
+displacement = thickness / 2*R_curvature
 
 ## User Manual of the circuit and the app
 
