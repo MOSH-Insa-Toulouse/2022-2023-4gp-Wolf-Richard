@@ -24,6 +24,8 @@ The whole circuit can be seen in the picture below. Only the pins that are conne
 
 The test bench used is shown in the following picture.
 
+![test bench](https://user-images.githubusercontent.com/117917683/232510201-2b17cb76-b257-466b-8278-d96453b23fee.jpeg)
+
 To test the sensor, we just put it on bench and try to make it take the shape of the bench as much as possible. We payed attention not to touch the graphite or the aligator clips for the test to be reliable. We took the measurments once we had a stable contact with the bench and a stable value.
 
 ## User Manual of the circuit and the app
@@ -37,6 +39,8 @@ Second, the user is invited to put the sensor in the most deflected position of 
 From that moment on, the Bluetooth module sends the value of the resistance that was calculated in the program. Thanks to the app one can retrieve the value and see its evolution.
 
 On the app of which you can see a screenshot below, one must first connect to the right Bluetooth module with the button "Let’s go Bluetooth". Once confirmed that the connection was done properly, the toggle "Tic tac boom" must be on to receive the values. The values are sent by the Bluetooth module every 500ms. The button "Send to Grisolia" saves a text file with the values of the resistance in it.
+
+![android apk](https://user-images.githubusercontent.com/117917683/232510049-f4463200-e7e3-4e24-a70d-527d352089af.jpeg)
 
 ## Problems and improvements
 
