@@ -48,8 +48,6 @@ One can also select a point on the graph and see its value in the orange box. Ab
 
 ## Problems and improvements
 
-We discovered too late (as the put the sheild on the Arduino) that our pin which was supposed to be connected to the +5V output pin was in fact connected to the Vin pin which delivers 4.3V. To solve that problem we cut the Vin pin and connected a cable from it to the +5V output as can be seen in the picture below.
-
-![Vin to +5V](https://user-images.githubusercontent.com/117917683/232507183-34a4139c-3b46-4c27-ba81-c38f9881cd78.jpeg)
+We discovered too late (as the put the sheild on the Arduino) that our pin which was supposed to be connected to the +5V output pin was in fact connected to the Vin pin which delivers 4.3V. To solve that problem we cut the Vin pin and connected a cable from it to the +5V output.
 
 We had problems using the rotary encoder, as a turn could be registered by the program even if no one had touched it. In the end, we just replaced it by the nunchuk which is much more precise and has way more functionnalities.
