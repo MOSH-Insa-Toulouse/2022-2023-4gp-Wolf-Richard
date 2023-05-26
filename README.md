@@ -18,13 +18,13 @@ To that we added some elements. One can choose the best gain setting for their s
 
 The whole circuit can be seen in the picture below. Only the pins that are connected to the circuit are welded to the PCB.
 
-![whole circuit](https://user-images.githubusercontent.com/117917683/232507219-35aaf22e-3712-4acb-b655-914e615d6e81.jpeg)
+![whole circuit](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-Wolf-Richard/blob/main/Photos/whole%20circuit.jpeg)
 
 ## Test Bench and protocole used to test the sensor
 
 The test bench used is shown in the following picture.
 
-![test bench](https://user-images.githubusercontent.com/117917683/232510201-2b17cb76-b257-466b-8278-d96453b23fee.jpeg)
+![test bench](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-Wolf-Richard/blob/main/Photos/test%20bench.jpeg)
 
 To test the sensor, we put it on the bench and try to make it take the shape of the bench as much as possible. We payed attention not to touch the graphite or the aligator clips for the test to be reliable. We took the measurments once we had a stable contact with the bench and a stable value. To determine the displacement of the sensor we used the formula:
 
@@ -42,7 +42,7 @@ From that moment on, the Bluetooth module sends the value of the resistance that
 
 On the app of which you can see a screenshot below, one must first connect to the right Bluetooth module with the button "Let’s go Bluetooth". Once confirmed that the connection was done properly, the toggle "Tic tac boom", which controls the clock, must be on to receive the values. The values are sent by the Bluetooth module every 500ms. The button "Send to Grisolia" saves a text file with the values of the resistance in it. It is only clickable when the clock is off.
 
-![android apk](https://user-images.githubusercontent.com/117917683/232511801-0e43a64c-5084-4c02-80b2-d55e3043fc9a.jpeg)
+![android apk](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-Wolf-Richard/blob/main/Photos/android%20apk.jpeg)
 
 One can also select a point on the graph and see its value in the orange box. Above is displayed the value received at the moment by the app. Once a measurment done, the graph can be cleared thanks to the "Clear" button.
 
