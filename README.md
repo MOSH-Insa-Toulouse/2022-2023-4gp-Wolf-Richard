@@ -4,7 +4,7 @@
 
 One of our projects as part of our 4th year at INSA Toulouse in physical engineering is to create a measuring system for a paper and graphite based strain sensor. We must be able to measure the resistance of this sensor and send it to an android app.
 
-To that we added some elements. One can choose the best gain setting for their sensor thanks to the digital potentiometer controlled by the nunchuk and helped by the OLED screen.
+To that we added some elements. One can choose the best gain setting for their sensor thanks to the digital potentiometer controlled by the nunchuk and helped by the OLED screen. The Nunchuk is here to choose the calibrated value for the digital potentiometer. Then, the resistance of the strain gauge is sent to an Android app thanks to a Bluetooth module.
 
 ## Deliverables
 
@@ -26,7 +26,9 @@ The test bench used is shown in the following picture.
 
 ![test bench](https://user-images.githubusercontent.com/117917683/232510201-2b17cb76-b257-466b-8278-d96453b23fee.jpeg)
 
-To test the sensor, we just put it on bench and try to make it take the shape of the bench as much as possible. We payed attention not to touch the graphite or the aligator clips for the test to be reliable. We took the measurments once we had a stable contact with the bench and a stable value.
+To test the sensor, we put it on the bench and try to make it take the shape of the bench as much as possible. We payed attention not to touch the graphite or the aligator clips for the test to be reliable. We took the measurments once we had a stable contact with the bench and a stable value. To determine the displacement of the sensor we used the formula:
+
+displacement = thickness / 2*R_curvature
 
 ## User Manual of the circuit and the app
 
@@ -46,8 +48,6 @@ One can also select a point on the graph and see its value in the orange box. Ab
 
 ## Problems and improvements
 
-We discovered too late (as the put the sheild on the Arduino) that our pin which was supposed to be connected to the +5V output pin was in fact connected to the Vin pin which delivers 4.3V. To solve that problem we cut the Vin pin and connected a cable from it to the +5V output as can be seen in the picture below.
-
-![Vin to +5V](https://user-images.githubusercontent.com/117917683/232507183-34a4139c-3b46-4c27-ba81-c38f9881cd78.jpeg)
+We discovered too late (as the put the sheild on the Arduino) that our pin which was supposed to be connected to the +5V output pin was in fact connected to the Vin pin which delivers 4.3V. To solve that problem we cut the Vin pin and connected a cable from it to the +5V output.
 
 We had problems using the rotary encoder, as a turn could be registered by the program even if no one had touched it. In the end, we just replaced it by the nunchuk which is much more precise and has way more functionnalities.
