@@ -4,7 +4,7 @@
 
 One of our projects as part of our 4th year at INSA Toulouse in physical engineering is to create a measuring system for a paper and graphite based strain sensor. We must be able to measure the resistance of this sensor and send it to an android app.
 
-To that we added some elements. One can choose the best gain setting for their sensor thanks to the digital potentiometer controlled by the nunchuk and helped by the OLED screen.
+To that we added some elements. One can choose the best gain setting for their sensor thanks to the digital potentiometer controlled by the nunchuk and helped by the OLED screen. The Nunchuk is here to choose the calibrated value for the digital potentiometer. Then, the resistance of the strain gauge is sent to an Android app thanks to a Bluetooth module.
 
 ## Deliverables
 
