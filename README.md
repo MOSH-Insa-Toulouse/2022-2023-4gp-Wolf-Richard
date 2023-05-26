@@ -14,6 +14,12 @@ To that we added some elements. One can choose the best gain setting for their s
 - Test bench and protocole used to test the sensor
 - Datasheet
 
+## Software versions
+
+- KiCad 6.0.11-0
+- Arduino 2.0.4
+- MIT app inventor nb192
+
 ## PCB shield for Arduino Uno
 
 The whole circuit can be seen in the picture below. Only the pins that are connected to the circuit are welded to the PCB.
